@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-button {
+    @apply mx-1 flex h-9 w-9 items-center justify-center rounded-lg border border-gray-300 bg-transparent p-0 text-sm text-gray-600 transition-colors hover:bg-gray-100 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .page-button {
+    @apply mx-1 flex h-9 w-9 items-center justify-center rounded-lg p-0 text-sm shadow-md transition-colors hover:bg-gray-100 disabled:cursor-not-allowed disabled:bg-gray-200;
+  }
+}
+
+.clip {
+  clip-path: polygon(0% 0, 100% 0%, 100% 85%, 0 100%);
+}
+.ellipsis-container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+}
