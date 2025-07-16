@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto flex flex-col items-center text-center px-4">
         <Link href="/" passHref>
             <Image
-              src="/logo2.png"
+              src="/favicon-logo.png"
               alt="Suitmedia Logo"
               width={180}
               height={42}
